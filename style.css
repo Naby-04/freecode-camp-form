@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  /* border: 1px solid red; */
+}
+/* general */
+:root {
+  --text-white: #efefef;
+  --light-violet-bg: #b688ff;
+  --text-gray: #bdbdbd;
+  --white-border: #fff;
+  --green-bg: #37af65;
+  --fieldset-border: #3b3b4f;
+}
+
+body {
+  background: var(--light-violet-bg);
+  padding: 30px;
+  color: var(--text-white);
+  font-size: 18px;
+}
+/* title css */
+#title,
+#description {
+  width: fit-content;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+/* form css */
+form {
+  background: #6a129d;
+  padding: 10px 30px;
+  width: 50%;
+  margin: 1em auto;
+}
+/* fieldset css */
+fieldset {
+  padding: 20px 20px;
+  border-bottom: 2px solid var(--fieldset-border);
+}
+fieldset:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.recomendation,
+.improvement,
+.comments {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+/* input-box */
+.input-box {
+  margin-bottom: 10px;
+}
+.input-box input {
+  display: block;
+  padding: 10px;
+  min-width: 300px;
+  width: 100%;
+  max-width: 500px;
+  margin: 5px auto;
+  border-radius: 5px;
+}
+.radio-box,
+.checkbox {
+  margin-bottom: 10px;
+}
+input[type="radio"] {
+  vertical-align: middle;
+}
+label {
+  margin-left: 20px;
+}
+select {
+  padding: 10px 10px;
+  display: block;
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 520px;
+  border-radius: 5px;
+}
+/* textarea */
+textarea {
+  max-width: 500px;
+  width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 100px;
+}
+/* submit button */
+input[type="submit"] {
+  display: block;
+  padding: 10px;
+  min-width: 300px;
+  width: 100px;
+  max-width: 500px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
